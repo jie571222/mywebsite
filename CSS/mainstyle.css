@@ -1,0 +1,203 @@
+body{
+    background-image: url("../images/mainbg.jpg");
+    color: white;
+}
+body a{
+    text-decoration: none;
+}
+a:hover{
+    cursor: pointer;
+}
+/*logo*/
+.logo{
+    position: absolute;
+    left: 80px;
+    top: 50px;
+}
+.logo p{
+    font-size: 25px;
+    display: block;
+    color: lime;
+}
+.logo .p2{
+    margin-left: 25px;
+}
+
+/*时间*/
+.clock{
+    position: absolute;
+    left: 500px;
+    top: 60px;
+    width: 500px;
+    height: 100px;
+    color: limegreen;
+}
+#clock{
+    margin-left: 40px;
+    font-size: 80px;
+}
+#date{
+    margin-left: 400px;
+    font-size: 20px;
+}
+#tixing{
+    margin-left: 160px;
+    margin-top: -20px;
+}
+.nav{
+    position: absolute;
+    left: 0px;
+    top: 160px;
+}
+.nav {
+    padding: 0;
+    text-align: center;
+}
+.nav li{
+    font-size: 18;
+    color: white;
+    position: relative;
+    left: 0px;
+    list-style-type: none;
+    border-bottom: 1px solid gray;
+}
+.nav li a{
+    width:80px;
+    height: 20px;
+    display: block;
+    padding: 8px 5px;
+    color: #20b2aa;
+}
+.zuopin{
+    padding: 0;
+    position: absolute;
+    left: 70px;
+    top: 0px;
+}
+.zuopin li{
+    list-style-type: none;
+    padding: 0px 0px;
+    border-bottom: 1px solid gray;
+    text-align: center;
+}
+.zuopin li a{
+    width: 100px;
+    color: lightblue;
+}
+.zuopin li a:hover{
+    color: lime;
+}
+.wangzhan{
+    padding: 0;
+    position: absolute;
+    left: 70px;
+    top: 0px;
+}
+.wangzhan li{
+    list-style-type: none;
+    padding: 0px 0px;
+    border-bottom: 1px solid gray;
+    text-align: center;
+}
+.wangzhan li a{
+    width: 100px;
+    color: lightblue;
+}
+.wangzhan li a:hover{
+    color: lime;
+}
+/*主页*/
+.detail {
+    position: absolute;
+    left: 0px;
+    top: 200px;
+    width: 800px;
+    height: auto;
+    background: gray;
+    background: rgba(0, 0, 0, 0.5);
+    border-top: 1px solid gray;
+}
+.page p{
+    font-size: 30px;
+    display: block;
+    margin-left: 20px;
+}
+.page span{
+    color: #20b2aa;
+}
+.page em{
+    font-size: 10px;
+    font-style: normal;
+}
+.page div{
+    margin-left: 100px;
+    border-top: 1px solid gray;
+    width: 600px;
+    height: auto;
+    border-bottom: 1px solid gray;
+}
+.page table{
+    padding: 12px 14px;
+}
+.page a{
+    display: block;
+    margin: 20px 0px 50px 700px;
+    color: gray;
+}
+/*相册*/
+.photo{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 800px;
+    height: 400px;
+    background: gray;
+    background: rgba(0, 0, 0, 0.5);
+    border-top: 1px solid gray;
+    display: none;
+}
+.photo #flashcontent {
+    height: 100%;
+}
+
+
+/*2048*/
+.game2048{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 800px;
+    height: 500px;
+    background: gray;
+    background: rgba(0, 0, 0, 0.5);
+    border-top: 1px solid gray;
+}
+.game2048 #game2048{
+    height: 100%;
+}
+
+
+/*mrituan*/
+.mt img{
+    width: 750px;
+    height: 500;
+    padding: 10px 25px;
+}
+.mt p{
+    margin-top: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>主页</title>
+    <link href="../css/mainstyle.css" rel="stylesheet" type="text/css">
+    <link href="../CSS/game2048style.css" rel="stylesheet" type="text/css">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="viewport" content="width=device-width,initial-scale=1" />  
+
+    <link rel="stylesheet" type="text/css" href="//cdnjscn.b0.upaiyun.com/libs/twitter-bootstrap/3.2.0/css/bootstrap.min.css">
+
+    <script type="text/javascript" src="../JS/jquery.js"></script>
+    <script type="text/javascript" src="../JS/photo.js"></script>
+    <script src="../JS/js2048/bind_polyfill.js"></script>
+    <script src="../JS/js2048/classlist_polyfill.js"></script>
+    <script src="../JS/js2048/animframe_polyfill.js"></script>
+    <script src="../JS/js2048/keyboard_input_manager.js"></script>
+    <script src="../JS/js2048/html_actuator.js"></script>
+    <script src="../JS/js2048/grid.js"></script>
+    <script src="../JS/js2048/tile.js"></script>
+    <script src="../JS/js2048/local_storage_manager.js"></script>
+    <script src="../JS/js2048/game_manager.js"></script>
+    <script src="../JS/js2048/application.js"></script>
+
+</head>
+
+<body  onload="clock()">
+    <div class="logo">
+        <p class="p1">再牛逼的梦想</p><p class="p2">也挺不住傻逼似得坚持</p>
+    </div>
+    <div class="clock">
+        <div id="clock"></div>
+        <div id="date"></div>
+        <div id="tixing">时间都去哪了？</div>
+    </div>
+    <nav>
+        <ul class="nav">
+            <li class="nav_1"><a>关于我</a></li>
+            <li class="nav_2">
+                <a>作品</a>
+                <ul class="zuopin" style="display: none">
+                    <li><a>2048</a></li>
+                    <li><a>模拟美团</a></li>
+                    <li><a href="qunar.html" target="_blank">模拟去哪儿</a></li>
+                    <li><a>鼠标悬停</a></li>
+                    <li><a>邮箱补充</a></li>
+                    <li><a>学校选择</a></li>
+                    <li><a>表单</a></li>
+                    <li><a>模拟加购物车</a></li>
+                </ul>
+            </li>
+            <li class="nav_3">
+                <a>Jquery</a>
+                <ul class="wangzhan" style="display: none">
+                    <li><a href="http://www.lanrenzhijia.com/" target="_blank">懒人之家</a></li>
+                    <li><a href="http://www.webhek.com/" target="_blank">歪脖骇客</a></li>
+                    <li><a href="http://www.w3school.com.cn/" target="_blank">W3Cschool</a></li>
+                    <li><a href="http://www.baidu.com/" target="_blank">百度</a></li>
+                    <li><a href="http://www.jqshare.com/Divcss/findonelist/id/3.html" target="_blank">jquery分享</a></li>
+                </ul>
+            </li>
+            <li class="nav_4"><a>他她</a></li>
+        </ul>
+    </nav>
+    <div class="detail">
+        <div class="page">
+            <p>王东杰</p>
+            <div class="jibenxinxi" style="display: none">
+                <span>基本信息</span>
+                <table>
+                    <tr>
+                        <td>毕业院校：大连民族学院</td><td>学历：本科-自动化</td>
+                    </tr>
+                    <tr>
+                        <td>23岁-男-共青团员 </td><td>籍贯：xxxx</td>
+                    </tr>
+                    <tr>
+                        <td>联系电话：188-xxxx-xxxx</td>
+                    </tr>
+                    <tr>
+                        <td>邮箱：wangdj0423@yeah.net</td>
+                    </tr>
+                </table>
+            </div>
+            <div class="jineng" style="display: none">
+                <span>职场技能</span>
+                <table>
+                    <tr>
+                        <td>★ 熟练掌握Java，HTML/CSS  能够熟练运用JQuery 对PHP，EXTjs有一定的了解</td>
+                    </tr>
+                    <tr>
+                        <td>★ 熟练运用myeclipse,eclipse,InterlliJ IDEA编程软件</td>
+                    </tr>
+                    <tr>
+                        <td>★ 会计从业资格证书&nbsp;&nbsp;&nbsp;银行从业个人理财成绩合格证明</td>
+                    </tr>
+                    <tr>
+                        <td>★ 熟练运用办公室office软件，photoshop等</td>
+                    </tr>
+                </table>
+            </div>
+            <div class="jiangli" style="display: none">
+                <span>所获奖励</span>
+                <table>
+                    <tr>
+                        <td>★ 2011.10    大连民族学院军训“先进个人”。</td>
+                    </tr>
+                    <tr>
+                        <td>★ 2012.05    大连民族学院评优评先活动中获得“优秀团干部”。</td>
+                    </tr>
+                    <tr>
+                        <td>★ 2012.10    大连民族学院暑期实习“关于贫困地区义务支教”获得个人三等奖</td>
+                    </tr>
+                    <tr>
+                        <td>★ 2013.10    大连民族学院大学生创业大赛“一等奖”</td>
+                    </tr>
+                </table>
+            </div>
+            <div class="peixun" style="display: none">
+                <span>培训经历</span>
+                <table>
+                    <tr>
+                        <td>2014.07-2014.09  北京达内时代科技有限公司     Java，HTML/CSS等Web开发  </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="pingjia" style="display: none">
+                <span>个人评价</span>
+                <table>
+                    <tr>
+                        <td>
+                            我是一名应届毕业生，来自河北省邯郸市，性格淳朴，善良，能够吃苦耐劳。
+                            我对软件行业从一开始就很热爱，虽然专业不是计算机，但是我自学了关于软件的编程。希望在未来的职业发展中，您能给我一个机会，让我带着我努力奋斗，谦和、谨慎的精神，去实现自己，展示自己。
+                            谢谢！
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <a>更多<em style="display: none">∧</em><em>∨</em></a>
+        </div>
+        <!-- <div class="photo"> -->
+            <!-- <div id="flashcontent"></div> -->
+        <!-- </div> -->
+        <div class="container" style="display: none">
+            <div class="heading">
+                <h1 class="title">2048</h1>
+                <div class="scores-container">
+                    <div class="score-container">0</div>
+                    <div class="best-container">0</div>
+                </div>
+            </div>
+
+            <div class="above-game">
+                <p class="game-intro">控制键盘上下左右<strong>玩玩吧</strong></p>
+                <a class="restart-button">New Game</a>
+            </div>
+
+            <div class="game-container">
+                <div class="game-message">
+                    <p></p>
+                    <div class="lower">
+                        <a class="keep-playing-button">Keep going</a>
+                        <a class="retry-button">Try again</a>
+                    </div>
+                </div>
+
+                <div class="grid-container">
+                    <div class="grid-row">
+                        <div class="grid-cell"></div>
+                        <div class="grid-cell"></div>
+                        <div class="grid-cell"></div>
+                        <div class="grid-cell"></div>
+                    </div>
+                    <div class="grid-row">
+                        <div class="grid-cell"></div>
+                        <div class="grid-cell"></div>
+                        <div class="grid-cell"></div>
+                        <div class="grid-cell"></div>
+                    </div>
+                    <div class="grid-row">
+                        <div class="grid-cell"></div>
+                        <div class="grid-cell"></div>
+                        <div class="grid-cell"></div>
+                        <div class="grid-cell"></div>
+                    </div>
+                    <div class="grid-row">
+                        <div class="grid-cell"></div>
+                        <div class="grid-cell"></div>
+                        <div class="grid-cell"></div>
+                        <div class="grid-cell"></div>
+                    </div>
+                </div>
+
+                <div class="tile-container">
+
+                </div>
+            </div>
+        </div>
+        <div class="mt" style="display: none">
+            <p>因为代码丢失的问题，只找到一张以前的截图，别介意哈</p>
+            <img src="../images/mt.jpg">
+        </div>
+    </div>
+</body>
+<script type="text/javascript">
+    $(document).ready(function(){
+        $(".logo").fadeIn(800);
+        $(".nav_1").animate({left:"150px"},500);
+        $(".nav_2").animate({left:"150px"},600);
+        $(".nav_3").animate({left:"150px"},700);
+        $(".nav_4").animate({left:"150px"},800);
+        $(".detail").animate({left:"390px"},500).animate({left:"350px"},300);
+        $(".jibenxinxi").fadeIn(2000);
+        $(".jineng").fadeIn(3000);
+    });
+</script>
+<script type="text/javascript">
+    function clock()
+    {
+        var today=new Date();
+        var y=today.getFullYear();
+        var d=today.getDay();
+        var M=today.getMonth();
+        var h=today.getHours();
+        var m=today.getMinutes();
+        var s=today.getSeconds();
+        m=checkTime(m);
+        s=checkTime(s);
+        M=checkTime(M);
+        d=checkTime(d);
+        document.getElementById('clock').innerHTML=h+":"+m+":"+s;
+        document.getElementById('date').innerHTML=y+"-"+M+"-"+d;
+    }
+    function checkTime(i)
+    {
+        if (i<10)
+        {i="0" + i}
+        return i
+    }
+    setInterval("clock()",1000);
+</script>
+
+<script type="text/javascript">
+    var fo = new SWFObject("../swf/TiltViewer.swf", "viewer", "100%", "100%", "9.0.28", "#000000");
+    fo.addVariable("useFlickr", "false");
+    fo.addVariable("xmlURL", "../WEB-INF/gallery.xml");
+    fo.addVariable("maxJPGSize","640");
+    fo.addVariable("useReloadButton", "false");
+    fo.addVariable("columns", "5");
+    fo.addVariable("rows", "5");
+    fo.addParam("allowFullScreen","true");
+    fo.write("flashcontent");
+</script>
+
+<script type="text/javascript">
+    $(".nav>li>a").mouseover(function(){
+        $(this).animate({fontSize:"25"},100);
+        $(this).animate({fontSize:"18"},100);
+        $(this).css("color","Lime").siblings().css("color","#20b2aa");
+    }).mouseout(function(){
+        $(this).css("color","#20b2aa");
+    });
+    $(".nav_1").click(function(){
+        $(".page").show(500).siblings().hide();
+    });$(".nav_4").click(function(){
+        $(".photo").show().siblings().hide();
+    });
+    $(".nav_2 a").click(function(){
+        $(".zuopin").slideDown(500);
+        $(this).css("color","Lime");
+    });
+    $(".nav_2").mouseleave(function(){
+        $(".zuopin").slideUp(500);
+    });
+    $(".nav_3 a").click(function(){
+        $(".wangzhan").slideDown(500);
+        $(this).css("color","Lime");
+    });
+    $(".nav_3").mouseleave(function(){
+        $(".wangzhan").slideUp(500);
+    });
+</script>
+
+<script type="text/javascript">
+    $(".page a").click(function(){
+        $(".page div:gt(1)").toggle(300);
+        $(".page em").toggle(300);
+    });
+</script>
+<script type="text/javascript">
+    $(".zuopin li:eq(0)").click(function(){
+        $(".container").show(500).siblings().hide();
+    });
+    $(".zuopin li:eq(1)").click(function(){
+       $(".mt").fadeIn(500).siblings().hide();
+    });
+</script>
+
+</html>

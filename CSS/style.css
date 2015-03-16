@@ -1,0 +1,937 @@
+.logo{
+    height: 100px;
+    background: white;
+    border-top: 3px solid lightblue;
+}
+.logo .img{
+    position: absolute;
+    left: 180px;
+    top: 15px;
+}
+
+
+/*导航*/
+.logo .nav{
+    position: absolute;
+    left: 340px;
+    top: 60px;
+}
+.logo .navdetail{
+    padding: 0px;
+    margin-top: 0px;
+}
+.logo .navdetail li{
+    display: block;
+    float: left;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 0 8px 5px 8px;
+    border: 1px solid white;
+    height: 30px;
+}
+
+
+
+/*团购导航下拉菜单*/
+.nav_tuangou_detail{
+    position: absolute;
+    left: 30px;
+    top: 30px;
+    width:360px;
+    height: 45px;
+    background: white;
+    border: 1px solid gainsboro;
+    box-shadow: 1px 1px gray;
+    z-index: 1;
+    display: none;
+}
+.nav_tuangou_detail ul{
+    margin-top: 5px;
+    padding: 0px;
+    font-size: 10px;
+}
+.nav_tuangou_detail ul li a{
+    font-size: 13px;
+    display: block;
+    float: left;
+    padding: 8px 4px 8px 4px;
+    color: gray;
+}
+
+
+/*度假导航下拉菜单*/
+.nav_holiday_detail{
+    position: absolute;
+    left: 90px;
+    top: 30px;
+    width: 550px;
+    height: 45px;
+    background: white;
+    z-index: 2;
+    border: 1px solid gainsboro;
+    display: none;
+    box-shadow: 1px 1px gray;
+}
+.nav_holiday_detail ul{
+    margin-top: 5px;
+    padding: 0px;
+    font-size: 10px;
+}
+.nav_holiday_detail ul li a{
+    font-size: 13px;
+    display: block;
+    float: left;
+    padding: 8px 4px 8px 4px;
+    color: gray;
+}
+
+/*门票导航下拉菜单*/
+.nav_tickt_detail{
+    position: absolute;
+    left: 140px;
+    top: 30px;
+    width: 425px;
+    height: 45px;
+    background: white;
+    z-index: 3;
+    border: 1px solid gainsboro;
+    display: none;
+    box-shadow: 1px 1px gray;
+}
+.nav_tickt_detail ul{
+    margin-top: 5px;
+    padding: 0px;
+    font-size: 10px;
+}
+.nav_tickt_detail ul li a{
+    font-size: 13px;
+    display: block;
+    float: left;
+    padding: 8px 4px 8px 4px;
+    color: gray;
+}
+
+/*攻略导航下拉菜单*/
+.nav_gonglve_detail{
+    position: absolute;
+    left: 240px;
+    top: 30px;
+    width: 490px;
+    height: 45px;
+    background: white;
+    z-index: 4;
+    border: 1px solid gainsboro;
+    display: none;
+    box-shadow: 1px 1px gray;
+}
+.nav_gonglve_detail ul{
+    margin-top: 5px;
+    padding: 0px;
+    font-size: 10px;
+}
+.nav_gonglve_detail ul li a{
+    font-size: 13px;
+    display: block;
+    float: left;
+    padding: 8px 4px 8px 4px;
+    color: gray;
+}
+
+/*车车导航下拉菜单*/
+.nav_bus_detail{
+    position: absolute;
+    left: 460px;
+    top: 30px;
+    width: 240px;
+    height: 45px;
+    background: white;
+    z-index: 5;
+    border: 1px solid gainsboro;
+    box-shadow: 1px 1px gray;
+    display: none;
+}
+.nav_bus_detail ul{
+    margin-top: 5px;
+    padding: 0px;
+    font-size: 10px;
+}
+.nav_bus_detail ul li a{
+    font-size: 13px;
+    display: block;
+    float: left;
+    padding: 8px 4px 8px 4px;
+    color: gray;
+}
+
+
+
+
+/*登录详情*/
+.dl_detail{
+    position: absolute;
+    left: 900px;
+    top: 20px;
+    font-size: 10px;
+    color: gray;
+    z-index: 1;
+}
+.dl_detail div{
+    margin-left: 10px;
+    float: left;
+}
+.dl_detail .dd #wddd{
+    width: 80px;
+    height: 16px;
+    display: block;
+    float: left;
+    text-align: center;
+    border-left: 1px solid gainsboro;
+    border-right: 1px solid gainsboro;
+    border-top: 1px solid white;
+}
+.dl_detail .dd ul{
+    padding: 0px;
+    border: 1px solid gainsboro;
+    background: white;
+    margin-top: 18px;
+}
+.dl_detail .dd ul li{
+    display: block;
+    height: 20px;
+    padding: 5px 0px 4px 0px;
+    text-align: center;
+}
+.dl_detail .dd em{
+    font-style: normal;
+}
+
+
+
+.detail_menu{
+    position: absolute;
+    top:90px;
+    height: 275px;
+    width: 1350px;
+    background: #66ccff;
+}
+.detail_menu .menu{
+    position: absolute;
+    left: 180px;
+    top: 6px;
+    width: 100px;
+    height: 259px;
+    background: white;
+}
+.detail_menu .menu ul{
+    margin-top: 0px;
+    padding:  0px;
+    text-align: center;
+}
+.detail_menu .menu ul li{
+    list-style-type: none;
+    width: 100px;
+    height: 36px;
+    background: #ddffff;
+    border-bottom: 1px solid #20b2aa;
+}
+.detail_menu .menu ul li a{
+    display: block;
+    font-weight: bold;
+    padding: 8px 0px;
+    color: #008888;
+    text-decoration: none;
+}
+.detail_menu .menu_detail{
+
+    position: absolute;
+    left: 281px;
+    top: 6px;
+    width: 600px;
+    height: 258px;
+    background: white;
+}
+.bright{
+    color: red;
+}
+.border_bottom
+{
+    border-bottom: 2px solid indianred;
+}
+
+
+
+
+/*
+    机票详情
+*/
+.detail_menu .menu_detail .menu_detail_airplan{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 600px;
+    height: 258px;
+    background: white;
+}
+.detail_menu .menu_detail .menu_detail_airplan .airplan_1{
+    height: 25px;
+    width: 550px;
+    margin-left: 25px;
+    border-bottom: 1px solid gainsboro;
+}
+.detail_menu .menu_detail .menu_detail_airplan .airplan_1 ul{
+    padding: 0px;
+}
+.detail_menu .menu_detail .menu_detail_airplan .airplan_1 ul li{
+    list-style-type: none;
+    display: block;
+    float: left;
+    margin-left: 40px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #20b2aa;
+    height: 23px;
+}
+.detail_menu .menu_detail .menu_detail_airplan .airplan_1 div{
+    position: absolute;
+    left: 400px;
+    width: 200px;
+    top: 15px;
+    font-weight: bold;
+    color: #3333ff;
+}
+.detail_menu .menu_detail .menu_detail_airplan .airplan_2{
+    margin-top: 15px;
+    margin-left: 20px;
+    height: 160px;
+    width: 560px;
+    border-bottom: 1px solid gainsboro;
+}
+.detail_menu .menu_detail .menu_detail_airplan .airplan_21{
+    margin-left: 65px;
+    font-size: 10px;
+}
+.detail_menu .menu_detail .menu_detail_airplan .airplan_22{
+    margin-left: 30px;
+    margin-top: 10px;
+}
+.detail_menu .menu_detail .menu_detail_airplan .airplan_22 span{
+    font-weight: bold;
+    color: #484848;
+}
+.detail_menu .menu_detail .menu_detail_airplan .airplan_22 input{
+    position: relative;
+    left: 8px;
+    width: 200px;
+    height: 20px;
+}
+.detail_menu .menu_detail .menu_detail_airplan .airplan_22 a{
+    margin-left: 260px;
+    font-size: 10px;
+    color: gray;
+}
+.detail_menu .menu_detail .menu_detail_airplan .airplan_22{
+    margin-top: 10px;
+}
+.detail_menu .menu_detail .menu_detail_airplan .airplan_23{
+    margin-top: 0px;
+    height: 40px;
+}
+.detail_menu .menu_detail .menu_detail_airplan .airplan_23 a span{
+    color:blue;
+}
+.detail_menu .menu_detail .menu_detail_airplan .airplan_23 span{
+    font-size: 10px;
+    color: gray;
+    display: block;
+    float: left;
+    margin-top: 5px;
+    margin-left: 40px;
+}
+.detail_menu .menu_detail .menu_detail_airplan .airplan_23 input{
+    margin-left: 20px;
+    width: 100px;
+    height: 30px;
+    margin-top:-5px;
+    background-color: #ff5800;
+    border-style: none;
+}
+.detail_menu .menu_detail .menu_detail_airplan .airplan_3{
+    margin-top: 15px;
+}
+.detail_menu .menu_detail .menu_detail_airplan .airplan_3  a{
+    margin-left: 50px;
+    display: block;
+
+}
+.detail_menu .menu_detail .menu_detail_airplan .airplan_3  a span{
+    color: blue;
+}
+.detail_menu .menu_detail .menu_detail_airplan .airplan_3  span{
+    font-size: 10px;
+    display: block;
+    float: left;
+    margin-left: 20px;
+    color: gray;
+}
+
+/*
+    酒店详情
+*/
+
+.detail_menu .menu_detail .menu_detail_hotel{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 600px;
+    height: 258px;
+    background: white;
+    display: none;
+}
+.detail_menu .menu_detail .menu_detail_hotel .hotel_1{
+    height: 25px;
+    width: 550px;
+    margin-left: 25px;
+    border-bottom: 1px solid gainsboro;
+}
+.detail_menu .menu_detail .menu_detail_hotel .hotel_1 ul{
+    padding: 0px;
+}
+.detail_menu .menu_detail .menu_detail_hotel .hotel_1 ul li{
+    list-style-type: none;
+    display: block;
+    float: left;
+    margin-left: 40px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #20b2aa;
+    height: 23px;
+
+}
+.detail_menu .menu_detail .menu_detail_hotel .hotel_2{
+    margin-top: 15px;
+    margin-left: 20px;
+    height: 160px;
+    width: 560px;
+    border-bottom: 1px solid gainsboro;
+}
+.detail_menu .menu_detail .menu_detail_hotel .hotel_21{
+    margin-left: 65px;
+    font-size: 10px;
+}
+.detail_menu .menu_detail .menu_detail_hotel .hotel_22{
+    margin-left: 30px;
+    margin-top: 10px;
+}
+.detail_menu .menu_detail .menu_detail_hotel .hotel_22 span{
+    font-weight: bold;
+    color: #484848;
+}
+.detail_menu .menu_detail .menu_detail_hotel .hotel_22 input{
+    position: relative;
+    left: 8px;
+    width: 200px;
+    height: 20px;
+}
+.detail_menu .menu_detail .menu_detail_hotel .hotel_23{
+    margin-top: 0px;
+    height: 40px;
+}
+.detail_menu .menu_detail .menu_detail_hotel .hotel_23 span{
+    font-size: 10px;
+    color: gray;
+    display: block;
+    float: left;
+    margin-top: 5px;
+    margin-left: 60px;
+}
+.detail_menu .menu_detail .menu_detail_hotel .hotel_23 input{
+    margin-left: 30px;
+    width: 100px;
+    height: 30px;
+    margin-top:-5px;
+    background-color: #ff5800;
+    border-style: none;
+}
+.detail_menu .menu_detail .menu_detail_hotel .hotel_3{
+    margin-top: 15px;
+}
+.detail_menu .menu_detail .menu_detail_hotel .hotel_3  a{
+    margin-left: 50px;
+    display: block;
+
+}
+.detail_menu .menu_detail .menu_detail_hotel .hotel_3  a span{
+    color: blue;
+}
+.detail_menu .menu_detail .menu_detail_hotel .hotel_3  span{
+    font-size: 10px;
+    display: block;
+    float: left;
+    margin-left: 10px;
+    color: gray;
+}
+
+/*度假详情*/
+.detail_menu .menu_detail .menu_detail_holiday{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 600px;
+    height: 258px;
+    background: white;
+    display: none;
+}
+.detail_menu .menu_detail .menu_detail_holiday .holiday_1{
+    height: 25px;
+    width: 550px;
+    margin-left: 8px;
+    border-bottom: 1px solid gainsboro;
+}
+.detail_menu .menu_detail .menu_detail_holiday .holiday_1 ul{
+    padding: 0px;
+}
+.detail_menu .menu_detail .menu_detail_holiday .holiday_1 ul li{
+    list-style-type: none;
+    display: block;
+    float: left;
+    margin-left: 30px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #008888;
+    height: 23px;
+
+}
+.detail_menu .menu_detail .menu_detail_holiday .holiday_2{
+    margin-left: 20px;
+    height: 80px;
+    width: 550px;
+    border-bottom: 1px solid gainsboro;
+}
+.detail_menu .menu_detail .menu_detail_holiday .holiday_2 div{
+    margin-top: 14px;
+    margin-left: 8px;
+}
+.detail_menu .menu_detail .menu_detail_holiday .holiday_2 #holiday_21 {
+    width: 210px;
+    height: 16px;
+}
+.detail_menu .menu_detail .menu_detail_holiday .holiday_2 #holiday_22{
+    width: 260px;
+    height: 16px;
+}
+.detail_menu .menu_detail .menu_detail_holiday .holiday_2 span{
+    font-size: 10px;
+    color: gray;
+    display: block;
+    margin-left: 8px;
+    margin-top: 20px;
+}
+.detail_menu .menu_detail .menu_detail_holiday .holiday_2 .index2{
+    position: absolute;
+    left: 430px;
+    width: 100px;
+    height: 30px;
+    background-color: orangered;
+    top: 90px;
+    border-style: none;
+}
+.detail_menu .menu_detail .menu_detail_holiday .holiday_3{
+    margin-left: 24px;
+    width: 550px;
+    height: 100px;
+}
+.detail_menu .menu_detail .menu_detail_holiday .holiday_3 div{
+    font-size: 10px;
+}
+.detail_menu .menu_detail .menu_detail_holiday .holiday_3 span{
+    display: block;
+    float: left;
+}
+.detail_menu .menu_detail .menu_detail_holiday .holiday_3 ul{
+    padding: 0px;
+    color: blue;
+}
+.detail_menu .menu_detail .menu_detail_holiday .holiday_3 ul li{
+    list-style-type: none;
+    float: left;
+}
+.detail_menu .menu_detail .menu_detail_holiday .holiday_3 .rmdjmdd{
+    margin-top: 20px;
+    height: 0px;
+}
+.detail_menu .menu_detail .menu_detail_holiday .holiday_3 .ztdj ul li{
+    margin-left: 15px;
+}
+.detail_menu .menu_detail .menu_detail_holiday .holiday_3 .gndj span{
+    margin-left: 20px;
+}
+.detail_menu .menu_detail .menu_detail_holiday .holiday_3 .gndj ul li{
+    margin-left: 15px;
+}
+.detail_menu .menu_detail .menu_detail_holiday .holiday_3 .cjdj ul li{
+    margin-left: 15px;
+}
+.detail_menu .menu_detail .menu_detail_holiday .holiday_3 .ddct span{
+    margin-left: 31px;
+}
+.detail_menu .menu_detail .menu_detail_holiday .holiday_3 .ddct ul li{
+    margin-left: 15px;
+}
+
+/*门票详情*/
+
+.detail_menu .menu_detail .menu_detail_tickt{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 600px;
+    height: 258px;
+    background: white;
+    display: none;
+}
+.detail_menu .menu_detail .menu_detail_tickt .tickt_1{
+    margin-left: 20px;
+    width: 550px;
+    height: 80px;
+    border-bottom: 1px solid gainsboro;
+}
+.detail_menu .menu_detail .menu_detail_tickt .tickt_1 .mpsr{
+    display: block;
+    margin-top: 15px;
+    width: 550px;
+    height: 18px;
+}
+.detail_menu .menu_detail .menu_detail_tickt .tickt_1 a{
+    display: block;
+    margin-top: 20px;
+    font-size: 10px;
+    color: blue;
+    text-decoration: none;
+}
+.detail_menu .menu_detail .menu_detail_tickt .tickt_1 .mpss{
+    display: block;
+    position: absolute;
+    left: 460px;
+    top: 50px;
+    width: 100px;
+    height: 30px;
+    border-style: none;
+    background-color: orangered;
+}
+.detail_menu .menu_detail .menu_detail_tickt .tickt_2{
+    margin-left: 20px;
+    width: 550px;
+    height: 140px;
+    margin-top: 10px;
+    font-size: 10px;
+}
+.detail_menu .menu_detail .menu_detail_tickt .tickt_2 b{
+    font-size: 10px;
+    font-weight: normal;
+    display: block;
+    float: left;
+    color: gray;
+}
+.detail_menu .menu_detail .menu_detail_tickt .tickt_2 .p{
+    width: 550px;
+    height: 35px;
+    margin-left: 60px;
+    margin-top: 20px;
+    color: blue;
+}
+.detail_menu .menu_detail .menu_detail_tickt .tickt_2 .p span{
+    width: 70px;
+    display: block;
+    float: left;
+    margin-bottom: 10px;
+}
+.detail_menu .menu_detail .menu_detail_tickt .tickt_2 .p .piao,.more{
+    width: 200px;
+}
+
+
+/*团购详情*/
+
+.detail_menu .menu_detail .menu_detail_tuangou{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 600px;
+    height: 258px;
+    background: white;
+    display: none;
+}
+.detail_menu .menu_detail .menu_detail_tuangou .tuangou_1{
+    width: 550px;
+    height: 60px;
+    margin-left: 25px;
+    border-bottom: 1px solid gainsboro;
+}
+.detail_menu .menu_detail .menu_detail_tuangou .tuangou_1 span{
+    position: absolute;
+    left: 40px;
+    top: 20px;
+    font-size: 10px;
+    color: gray;
+}
+.detail_menu .menu_detail .menu_detail_tuangou .tuangou_2{
+    width: 550px;
+    height: 120px;
+    margin-left: 25px;
+    border-bottom: 1px solid gainsboro;
+    font-size: 10px;
+}
+.detail_menu .menu_detail .menu_detail_tuangou .tuangou_2 div{
+    margin-top: 20px;
+}
+.detail_menu .menu_detail .menu_detail_tuangou .tuangou_2 b{
+    display: block;
+    float: left;
+    color: gray;
+    font-weight: normal;
+}
+.detail_menu .menu_detail .menu_detail_tuangou .tuangou_2 .p{
+    margin-left: 60px;
+}
+.detail_menu .menu_detail .menu_detail_tuangou .tuangou_2 .p span{
+    width: 70px;
+    display: block;
+    float: left;
+    margin-bottom: 10px;
+    color: blue;
+}
+.detail_menu .menu_detail .menu_detail_tuangou .tuangou_3{
+    margin-top: 15px;
+    margin-left: 100px;
+}
+.detail_menu .menu_detail .menu_detail_tuangou .tuangou_3 span{
+    display: block;
+    float: left;
+    margin-right: 60px;
+    font-size: 10px;
+    color: #20b2aa;
+}
+
+/*酒店图片*/
+.images_hotel{
+    position: absolute;
+    top: 360px;
+    left: 188px;
+    height: 100px;
+}
+.images_hotel img{
+    width: 702px;
+}
+
+/*当季度假热门*/
+.detail_season{
+    position: absolute;
+    width: 700px;
+    height: 260px;
+    top: 455px;
+    left: 188px;
+    border-bottom: 1px solid gainsboro;
+
+}
+.detail_season .detail_season_nav{
+    height: 33px;
+    font-size: 14px;
+    color: #20b2aa;
+    border-bottom: 1px solid #20b2aa;
+}
+.detail_season .detail_season_nav span{
+    display: block;
+    float: left;
+    margin-left: 10px;
+    margin-top: 8px;
+}
+.detail_season .detail_season_nav #more{
+    color: gray;
+}
+.detail_season .detail_season_nav ul{
+    padding: 0;
+    margin-left: 200px;
+}
+.detail_season .detail_season_nav ul li{
+    list-style-type: none;
+    float: left;
+    padding: 8px 9px 8px 9px;
+    border: 1px solid #20b2aa;
+}
+
+/*特价详情*/
+#detail_season_tejia{
+    display: none;
+}
+#detail_season_tejia .images{
+    position: absolute;
+    left: 15px;
+    float: left;
+    width: 380px;
+    height: 150px;
+
+}
+#detail_season_tejia .images img{
+    width: 180px;
+    height: 150px;
+}
+#detail_season_tejia .detail{
+    margin-top: 20px;
+    margin-left: 390px;
+    border: 1px solid gainsboro;
+    width: 300px;
+    height: 150px;
+}
+#detail_season_tejia .detail ul{
+    padding: 0;
+    margin-top: 8px;
+}
+#detail_season_tejia .detail ul li{
+    list-style-type: none;
+    font-size: 10px;
+    height: 30px;
+}
+#detail_season_tejia .detail ul li a.you{
+    padding: 5px 16px 5px 16px;
+    border-right: 1px solid gainsboro;
+    color: white;
+
+}
+#detail_season_tejia .detail ul li a.you span{
+    background: #e88060;
+    padding: 5px 8px;
+}
+#detail_season_tejia .detail ul li a.ydetail{
+    padding: 0 0 0 10px;
+}
+#detail_season_tejia .detail ul li a.ydetail span.price{
+    position: absolute;
+    left: 616px;
+    font-size: 13px;
+    font-weight: bold;
+    color: palevioletred;
+}
+#detail_season_tejia .detail ul li a.ydetail span.dazhe{
+    position: absolute;
+    left: 652px;
+    background: limegreen;
+    color: white;
+    padding: 0 2px 0 2px;
+}
+
+/*当季最好玩详情*/
+.detail_season_detail ul{
+    padding: 0 0 0px 20px;
+}
+.detail_season_detail ul li{
+    list-style: none;
+}
+.detail_season_detail img{
+    width: 160px;
+    height: 120px;
+}
+.detail_season_detail ul li.images{
+    border-bottom: 1px dashed black;
+    height: 140px;
+}
+.detail_season_detail ul li.detail{
+    font-size: 10px;
+}
+.detail_season_detail ul li.detail a{
+    display: block;
+    float: left;
+    width: 300px;
+    height: 20px;
+    padding: 5px 40px 5px 0px;
+    color: gray;
+}
+.detail_season_detail ul li.detail a .price_1{
+    position: relative;
+    left: 110px;
+    color: palevioletred;
+    font-size: 13px;
+    font-weight: bold;
+}
+.detail_season_detail ul li.detail a .price_2{
+    position: relative;
+    left: 120px;
+    color: palevioletred;
+    font-size: 13px;
+    font-weight: bold;
+}
+.detail_season_detail ul li.detail a .price_3{
+    position: relative;
+    left: 98px;
+    color: palevioletred;
+    font-size: 13px;
+    font-weight: bold;
+}
+.detail_season_detail ul li.detail a .price_4{
+    position: relative;
+    left: 90px;
+    color: palevioletred;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+/*动画*/
+.detail_season_detail ul.bg{
+    padding: 0;
+}
+.detail_season_detail ul.bg li{
+    list-style-type: none;
+    height: 120px;
+    z-index: 1;
+    background: white;
+    /*filter:alpha(opacity=50);  支持 IE 浏览器
+    -moz-opacity:0.50; 支持 FireFox 浏览器
+    opacity:0.50;  支持 Chrome, Opera, Safari 等浏览器*/
+    background:rgba(0,0,0,0.5);
+    display: none;
+}
+.detail_season_detail .d1{
+    position: absolute;
+    left: 20px;
+    top: 65px;
+    width: 150px;
+
+}
+.detail_season_detail .d1,.d2,.d3,.d4 p{
+    color: white;
+    font-size: 14px;
+    padding: 0 0 0 10px;
+}
+.detail_season_detail .d2{
+    position: absolute;
+    left: 188px;
+    top: 65px;
+    width: 150px;
+
+}
+.detail_season_detail .d3{
+    position: absolute;
+    left: 355px;
+    top: 65px;
+    width: 150px;
+
+}
+.detail_season_detail .d4{
+    position: absolute;
+    left: 525px;
+    top: 65px;
+    width: 160px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

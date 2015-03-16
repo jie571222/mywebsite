@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>为了当年吹过的牛X而奋斗</title>
+    <style>
+        body{
+            background: url("./images/main.jpg");
+            margin: 0;
+            padding: 0;
+        }
+        .main{
+            height: 120px;
+            font-family: 楷体;
+            margin-top: 450px;
+            border-top:1px solid gray;
+            border-bottom: 1px solid gray;
+            background: rgba(255,255,255,0.1); 
+        }
+        .p1{
+            font-size: 30px;
+        }
+        .p2{
+            font-size: 20px;
+            margin-left: 100px;
+        }
+        .enter{
+            margin-left: 800px;
+            /*border-radius: 10px;*/
+            border-top: 1px solid gray;
+            border-bottom: 1px solid gray;
+            text-decoration: none;
+            width: 120px;
+            height: 35px;
+            display: block;
+        }
+        .enter span{
+            font-size: 25px;
+            color: gray;
+            margin: 5px;
+            margin-left: 25px;
+            /*background: red;*/
+        }
+        .border-p{
+            margin-top: 20px;
+            margin-left: 300px;
+        }
+    </style>
+</head>
+<script type="text/javascript" src="http://cdnjscn.b0.upaiyun.com/libs/jquery/2.1.1/jquery.min.js"></script>
+<body>
+    <div class="main">
+        <div class="border-p">
+            <span class="p1">为了当年吹过的牛X而奋斗在路上的少年</span><br><br>
+            <span class="p2">仅以此来纪念我那不着调的大学生活</span>
+        </div>
+    </div>
+    <br><br>
+    <a class="enter" href="./HTML/mousewheel.html"><span id="button">See Me</span></a>
+</body>
+
+<script>
+    $("#button").mouseover(function(){
+        $(this).animate({fontSize:"30px"},100);
+        $(this).animate({fontSize:"25px"},100);
+    });
+</script>
+</html>
